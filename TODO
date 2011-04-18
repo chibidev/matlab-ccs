@@ -1,0 +1,11 @@
+Following functions are undefined, but needed by current files:
+ - print_usage
+ - ltiview
+ - pole
+
+Following functions are defined, but behavior is different in Matlab:
+ - step: shows Bode Diagram
+ - lsim: shows Bode Diagram
+
+Following functions need to be reviewed:
+ - pzmap: plot is commented because of different function signature in Octave and Matlab
